@@ -26,8 +26,7 @@ p {
 }
 
 .container {
-	width: 1230px;
-	width: 100%;
+	max-width: 1230px;
 	padding: 0 15px;
 	margin: 0 auto;
 }
@@ -359,7 +358,7 @@ p {
 
 .about__wrapper {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 
@@ -509,9 +508,6 @@ p {
 /* contact form end */
 
 /* footer start */
-
-.footer {
-}
 
 .footer__wrapper {
 	height: 150px;
